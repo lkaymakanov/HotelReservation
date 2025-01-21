@@ -200,6 +200,16 @@ input {
 }
 
 
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 20px;
+}
+
+
 .offers {
     display: flex;
     flex-direction: column;
@@ -232,3 +242,15 @@ input {
     max-width: 90px;
     margin-right: 20px;
 }
+
+.confirm-reservation {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+
+
